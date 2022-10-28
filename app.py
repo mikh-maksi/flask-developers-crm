@@ -338,7 +338,7 @@ class AddressBook:
         self.last_developer_id = 0
 
 
-app = Flask("answer")
+app = Flask(__name__)
 AB = AddressBook()
 # CORS(app)
 with open("ab.json") as file:
