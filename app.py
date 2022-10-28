@@ -480,14 +480,14 @@ def delete_field(developer_id, field_index):
     return redirect(url_for("developer", developer_id=developer_id))
 
 
-def main():
-    from werkzeug.serving import run_simple
+# def main():
+#     from werkzeug.serving import run_simple
 
-    run_simple("0.0.0.0", 5050, app)
-    # BEGIN SOLUTION
-    # app.run(host="0.0.0.0", port=8080)
-    # END SOLUTION
+#     run_simple("0.0.0.0", 5050, app)
+#     # BEGIN SOLUTION
+#     # app.run(host="0.0.0.0", port=8080)
+#     # END SOLUTION
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
